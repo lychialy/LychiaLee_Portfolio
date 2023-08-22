@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lychia Lee</title>
+    <link rel="stylesheet" href="stylesCSS_portfolio">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="home">
+        
+    </div>
+    
+    <div id="about" class="about">
+        <p>Hello my name is Lychia Lee, and I am passionate about web development! I am a web developer living in the Twin Cities, Minnesota,
+             and I have experience in HTML, CSS, and JavaScript!  </p>
+    </div>
+    
+    <div id="work" class="work">
+        <h2>My Work</h2>
+        <p>You can find my projects on GitHub and connect with me on LinkedIn:</p>
+        <ul>
+          </div>
+            <li><a href="https://github.com/lychialy">GitHub</a></li>
+            <li><a href="www.linkedin.com/in/lychia-lee-91a24921b">LinkedIn</a></li>
+        </ul>
+    </div>
+    
+    <div id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or would like to get in touch, feel free to reach out to me at lychia.lee@gmail.com.</p>
+    </div>
+    <div class="project-grid">
+            <div class="project-thumbnail">
+               
+            </div>
+            <div class="project-thumbnail">
+                
+            </div>
+            <div class="project-thumbnail">
+               
+            </div>
+            <div class="project-thumbnail">
+                
+            </div>
+        
+    <div id="about">
+        <img src="https://previews.dropbox.com/p/thumb/ACC_cUSQ3a_NifYknwyRxIZk0Ek80b4X1AShyqG56jGn4xY26_lM7MXKxASEV9x4qZdVdlE3FfB1BVn2QG0KqdGcD3gN8cTmTYAfgpOQ_3rtOi696YzDO9g5sOM1knXIyRL7nAlGlauuPlIy5FZQu4VWhJv8scsd2uvyx29FDHe0AY-MwwQZBG0wDB6PVvs1OLZkfwuOeudNjEC1n5Xldv2OxK9SOVui9TN0xLfuXgcKhuI6S0JDA_A24gpo3usoYDVU4vVKXlNuH-OMqVMHfYCxalEm_z0hZ7rcxLKxga2kpjeWIeP1ig9sdtXCF1rPPJ7UxWGADTq3x8KIwSoWo4wx/p.jpeg" alt="Lychia Lee smiling in the center of the photo, in a pink and white flower pattern dress.">
+     
+      <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        </div>
+      <footer>
+    <p>&copy; 2023 Lychia Lee All rights reserved.</p>
+</footer>
+</body>
+</html>
